@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #000;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+  }
+  
+  .header {
+    border-bottom: 2px solid #32b9cd;
+  }
+  
+  .header .container {
+    justify-content: space-between;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #e3b062;
+  }
+  
+  .agora {
+    font-weight: 800;
+  }
+  
+  .navbar {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+  }
+
+  .form {
+    background: #dad4d4;
+    flex-direction: column;
+  }
+
+  .form .title {
+    font-size: small;
+  }
+
+  .input {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+   .email {
+    text-align: center;
+    border-radius: 10px;
+    padding: 9px;
+    border: 1px solid #32b9cd;
+  }
+
+  .senha {
+    text-align: center;
+    border-radius: 10px;
+    padding: 9px;
+    border: 1px solid #32b9cd;
+  }
+
+  .banner {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 550px;
+    padding: 40px 0;
+    color: #e84181;
+    background-image: url("../assets/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+  }
+
+  .banner .form {
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-entrar {
+    background: #e84181;
+    border: 0px;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: medium;
+    border-radius: 5px;
+  }
+
+  .footer p{
+    font-size: 13px;
+    font-weight: 800;
+    margin: 0px;
+    color: #fff;
+    
+  }
+
+  .footer .v1 {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+  }
+
+  .footer {
+    background: #32b9cd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 132px;
+    
+  }
